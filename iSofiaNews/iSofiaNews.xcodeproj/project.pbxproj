@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD1536C8238ED55000973C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1536C7238ED55000973C5A /* AppDelegate.swift */; };
+		FD1536CA238ED55000973C5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1536C9238ED55000973C5A /* SceneDelegate.swift */; };
+		FD1536CD238ED55000973C5A /* iSofiaNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD1536CB238ED55000973C5A /* iSofiaNews.xcdatamodeld */; };
+		FD1536CF238ED55000973C5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1536CE238ED55000973C5A /* ContentView.swift */; };
+		FD1536D4238ED55100973C5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1536D3238ED55100973C5A /* Preview Assets.xcassets */; };
+		FD1536D7238ED55100973C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1536D5238ED55100973C5A /* LaunchScreen.storyboard */; };
+		FD743C76238ED79C00C05755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD743C75238ED79C00C05755 /* Assets.xcassets */; };
+		FD743C78238ED98600C05755 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C77238ED98600C05755 /* PlaygroundView.swift */; };
+		FD743C7F238EDBC000C05755 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C7E238EDBC000C05755 /* ArticleView.swift */; };
+		FD743C81238EDCAC00C05755 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C80238EDCAC00C05755 /* Services.swift */; };
+		FD743C84238EDD3300C05755 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C83238EDD3300C05755 /* Article.swift */; };
+		FD743C86238EDE3E00C05755 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C85238EDE3E00C05755 /* ArticleListViewModel.swift */; };
+		FD743C88238EE10600C05755 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C87238EE10600C05755 /* ImageLoader.swift */; };
+		FD743C8A238EE17700C05755 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C89238EE17700C05755 /* ImageView.swift */; };
+		FD743C8C238EE3DA00C05755 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C8B238EE3DA00C05755 /* Persistence.swift */; };
+		FD743C8E238EE4AE00C05755 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C8D238EE4AE00C05755 /* FavoriteView.swift */; };
+		FD743C90238EE5AC00C05755 /* FavoriteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C8F238EE5AC00C05755 /* FavoriteListViewModel.swift */; };
+		FD743C92238EE8CA00C05755 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C91238EE8CA00C05755 /* ArticleDetailView.swift */; };
+		FD743C94238EE90800C05755 /* BigImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD743C93238EE90800C05755 /* BigImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD1536C4238ED55000973C5A /* iSofiaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSofiaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1536C7238ED55000973C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD1536C9238ED55000973C5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD1536CC238ED55000973C5A /* iSofiaNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSofiaNews.xcdatamodel; sourceTree = "<group>"; };
+		FD1536CE238ED55000973C5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD1536D3238ED55100973C5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD1536D6238ED55100973C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD1536D8238ED55100973C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD743C75238ED79C00C05755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/AppIcons-4/Assets.xcassets"; sourceTree = "<group>"; };
+		FD743C77238ED98600C05755 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		FD743C7E238EDBC000C05755 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		FD743C80238EDCAC00C05755 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		FD743C83238EDD3300C05755 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FD743C85238EDE3E00C05755 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		FD743C87238EE10600C05755 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FD743C89238EE17700C05755 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		FD743C8B238EE3DA00C05755 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FD743C8D238EE4AE00C05755 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		FD743C8F238EE5AC00C05755 /* FavoriteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewModel.swift; sourceTree = "<group>"; };
+		FD743C91238EE8CA00C05755 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		FD743C93238EE90800C05755 /* BigImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD1536C1238ED55000973C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD1536BB238ED55000973C5A = {
+			isa = PBXGroup;
+			children = (
+				FD743C82238EDD2400C05755 /* Models */,
+				FD743C7C238EDB6C00C05755 /* ModelViews */,
+				FD743C7B238EDB6500C05755 /* Views */,
+				FD743C7A238EDB5D00C05755 /* Persistence */,
+				FD743C79238EDB5500C05755 /* Services */,
+				FD1536C6238ED55000973C5A /* iSofiaNews */,
+				FD1536C5238ED55000973C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD1536C5238ED55000973C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD1536C4238ED55000973C5A /* iSofiaNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD1536C6238ED55000973C5A /* iSofiaNews */ = {
+			isa = PBXGroup;
+			children = (
+				FD1536C7238ED55000973C5A /* AppDelegate.swift */,
+				FD1536C9238ED55000973C5A /* SceneDelegate.swift */,
+				FD743C75238ED79C00C05755 /* Assets.xcassets */,
+				FD1536D5238ED55100973C5A /* LaunchScreen.storyboard */,
+				FD1536D8238ED55100973C5A /* Info.plist */,
+				FD1536CB238ED55000973C5A /* iSofiaNews.xcdatamodeld */,
+				FD1536D2238ED55100973C5A /* Preview Content */,
+			);
+			path = iSofiaNews;
+			sourceTree = "<group>";
+		};
+		FD1536D2238ED55100973C5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD1536D3238ED55100973C5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD743C79238EDB5500C05755 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD743C80238EDCAC00C05755 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FD743C7A238EDB5D00C05755 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FD743C8B238EE3DA00C05755 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FD743C7B238EDB6500C05755 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD743C77238ED98600C05755 /* PlaygroundView.swift */,
+				FD1536CE238ED55000973C5A /* ContentView.swift */,
+				FD743C7E238EDBC000C05755 /* ArticleView.swift */,
+				FD743C89238EE17700C05755 /* ImageView.swift */,
+				FD743C8D238EE4AE00C05755 /* FavoriteView.swift */,
+				FD743C91238EE8CA00C05755 /* ArticleDetailView.swift */,
+				FD743C93238EE90800C05755 /* BigImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD743C7C238EDB6C00C05755 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				FD743C85238EDE3E00C05755 /* ArticleListViewModel.swift */,
+				FD743C87238EE10600C05755 /* ImageLoader.swift */,
+				FD743C8F238EE5AC00C05755 /* FavoriteListViewModel.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		FD743C82238EDD2400C05755 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD743C83238EDD3300C05755 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD1536C3238ED55000973C5A /* iSofiaNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1536DB238ED55100973C5A /* Build configuration list for PBXNativeTarget "iSofiaNews" */;
+			buildPhases = (
+				FD1536C0238ED55000973C5A /* Sources */,
+				FD1536C1238ED55000973C5A /* Frameworks */,
+				FD1536C2238ED55000973C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSofiaNews;
+			productName = iSofiaNews;
+			productReference = FD1536C4238ED55000973C5A /* iSofiaNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD1536BC238ED55000973C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Sofia Castillo";
+				TargetAttributes = {
+					FD1536C3238ED55000973C5A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = FD1536BF238ED55000973C5A /* Build configuration list for PBXProject "iSofiaNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD1536BB238ED55000973C5A;
+			productRefGroup = FD1536C5238ED55000973C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD1536C3238ED55000973C5A /* iSofiaNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD1536C2238ED55000973C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1536D7238ED55100973C5A /* LaunchScreen.storyboard in Resources */,
+				FD1536D4238ED55100973C5A /* Preview Assets.xcassets in Resources */,
+				FD743C76238ED79C00C05755 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD1536C0238ED55000973C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1536C8238ED55000973C5A /* AppDelegate.swift in Sources */,
+				FD743C7F238EDBC000C05755 /* ArticleView.swift in Sources */,
+				FD743C90238EE5AC00C05755 /* FavoriteListViewModel.swift in Sources */,
+				FD743C92238EE8CA00C05755 /* ArticleDetailView.swift in Sources */,
+				FD743C88238EE10600C05755 /* ImageLoader.swift in Sources */,
+				FD743C78238ED98600C05755 /* PlaygroundView.swift in Sources */,
+				FD743C8A238EE17700C05755 /* ImageView.swift in Sources */,
+				FD743C81238EDCAC00C05755 /* Services.swift in Sources */,
+				FD743C86238EDE3E00C05755 /* ArticleListViewModel.swift in Sources */,
+				FD743C84238EDD3300C05755 /* Article.swift in Sources */,
+				FD743C8E238EE4AE00C05755 /* FavoriteView.swift in Sources */,
+				FD1536CA238ED55000973C5A /* SceneDelegate.swift in Sources */,
+				FD743C8C238EE3DA00C05755 /* Persistence.swift in Sources */,
+				FD743C94238EE90800C05755 /* BigImageView.swift in Sources */,
+				FD1536CF238ED55000973C5A /* ContentView.swift in Sources */,
+				FD1536CD238ED55000973C5A /* iSofiaNews.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD1536D5238ED55100973C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD1536D6238ED55100973C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD1536D9238ED55100973C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD1536DA238ED55100973C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD1536DC238ED55100973C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iSofiaNews/Preview Content\"";
+				DEVELOPMENT_TEAM = XA7QPGNDH6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iSofiaNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.iSofiaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD1536DD238ED55100973C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iSofiaNews/Preview Content\"";
+				DEVELOPMENT_TEAM = XA7QPGNDH6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iSofiaNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.iSofiaNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD1536BF238ED55000973C5A /* Build configuration list for PBXProject "iSofiaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1536D9238ED55100973C5A /* Debug */,
+				FD1536DA238ED55100973C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1536DB238ED55100973C5A /* Build configuration list for PBXNativeTarget "iSofiaNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1536DC238ED55100973C5A /* Debug */,
+				FD1536DD238ED55100973C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD1536CB238ED55000973C5A /* iSofiaNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD1536CC238ED55000973C5A /* iSofiaNews.xcdatamodel */,
+			);
+			currentVersion = FD1536CC238ED55000973C5A /* iSofiaNews.xcdatamodel */;
+			path = iSofiaNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD1536BC238ED55000973C5A /* Project object */;
+}

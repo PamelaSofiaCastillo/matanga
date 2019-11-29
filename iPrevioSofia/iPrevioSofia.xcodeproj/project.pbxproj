@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD56C41F238B3C130088FFCF /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56C41E238B3C130088FFCF /* MoviesView.swift */; };
+		FD56C421238B3E7B0088FFCF /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56C420238B3E7B0088FFCF /* PlaygroundView.swift */; };
+		FD56C423238B60850088FFCF /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56C422238B60850088FFCF /* Movie.swift */; };
+		FD56C425238B7AE40088FFCF /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56C424238B7AE40088FFCF /* Services.swift */; };
+		FD56C427238B82230088FFCF /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD56C426238B82230088FFCF /* MovieListViewModel.swift */; };
+		FD6995B7238CD39400B5C419 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6995B6238CD39400B5C419 /* ImageView.swift */; };
+		FD6995B9238CD47000B5C419 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6995B8238CD47000B5C419 /* ImageLoader.swift */; };
+		FD6995C3238CE10C00B5C419 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6995C2238CE10C00B5C419 /* FavoriteView.swift */; };
+		FD6995C5238CEC9000B5C419 /* FavoriteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6995C4238CEC9000B5C419 /* FavoriteListViewModel.swift */; };
+		FD6995C7238CF03500B5C419 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6995C6238CF03500B5C419 /* Persistence.swift */; };
+		FD80315D238B2F4600789765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD80315C238B2F4600789765 /* AppDelegate.swift */; };
+		FD80315F238B2F4600789765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD80315E238B2F4600789765 /* SceneDelegate.swift */; };
+		FD803162238B2F4600789765 /* iPrevioSofia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD803160238B2F4600789765 /* iPrevioSofia.xcdatamodeld */; };
+		FD803164238B2F4600789765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD803163238B2F4600789765 /* ContentView.swift */; };
+		FD803166238B2F4900789765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD803165238B2F4900789765 /* Assets.xcassets */; };
+		FD803169238B2F4900789765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD803168238B2F4900789765 /* Preview Assets.xcassets */; };
+		FD80316C238B2F4900789765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD80316A238B2F4900789765 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD56C41E238B3C130088FFCF /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		FD56C420238B3E7B0088FFCF /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		FD56C422238B60850088FFCF /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FD56C424238B7AE40088FFCF /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		FD56C426238B82230088FFCF /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		FD6995B6238CD39400B5C419 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		FD6995B8238CD47000B5C419 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FD6995C2238CE10C00B5C419 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		FD6995C4238CEC9000B5C419 /* FavoriteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewModel.swift; sourceTree = "<group>"; };
+		FD6995C6238CF03500B5C419 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FD803159238B2F4600789765 /* iPrevioSofia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPrevioSofia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD80315C238B2F4600789765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD80315E238B2F4600789765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD803161238B2F4600789765 /* iPrevioSofia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPrevioSofia.xcdatamodel; sourceTree = "<group>"; };
+		FD803163238B2F4600789765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD803165238B2F4900789765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD803168238B2F4900789765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD80316B238B2F4900789765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD80316D238B2F4900789765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD803156238B2F4600789765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD56C419238B37DB0088FFCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD56C422238B60850088FFCF /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD56C41A238B37FC0088FFCF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD56C424238B7AE40088FFCF /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FD56C41B238B38320088FFCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD803163238B2F4600789765 /* ContentView.swift */,
+				FD56C41E238B3C130088FFCF /* MoviesView.swift */,
+				FD6995B6238CD39400B5C419 /* ImageView.swift */,
+				FD6995C2238CE10C00B5C419 /* FavoriteView.swift */,
+				FD56C420238B3E7B0088FFCF /* PlaygroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD56C41C238B383E0088FFCF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FD56C426238B82230088FFCF /* MovieListViewModel.swift */,
+				FD6995C4238CEC9000B5C419 /* FavoriteListViewModel.swift */,
+				FD6995B8238CD47000B5C419 /* ImageLoader.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FD56C41D238B384B0088FFCF /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FD6995C6238CF03500B5C419 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FD803150238B2F4600789765 = {
+			isa = PBXGroup;
+			children = (
+				FD80315B238B2F4600789765 /* iPrevioSofia */,
+				FD80315A238B2F4600789765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD80315A238B2F4600789765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD803159238B2F4600789765 /* iPrevioSofia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD80315B238B2F4600789765 /* iPrevioSofia */ = {
+			isa = PBXGroup;
+			children = (
+				FD56C41D238B384B0088FFCF /* Persistence */,
+				FD56C41C238B383E0088FFCF /* ViewModels */,
+				FD56C41B238B38320088FFCF /* Views */,
+				FD56C41A238B37FC0088FFCF /* Services */,
+				FD56C419238B37DB0088FFCF /* Models */,
+				FD80315C238B2F4600789765 /* AppDelegate.swift */,
+				FD80315E238B2F4600789765 /* SceneDelegate.swift */,
+				FD803165238B2F4900789765 /* Assets.xcassets */,
+				FD80316A238B2F4900789765 /* LaunchScreen.storyboard */,
+				FD80316D238B2F4900789765 /* Info.plist */,
+				FD803160238B2F4600789765 /* iPrevioSofia.xcdatamodeld */,
+				FD803167238B2F4900789765 /* Preview Content */,
+			);
+			path = iPrevioSofia;
+			sourceTree = "<group>";
+		};
+		FD803167238B2F4900789765 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD803168238B2F4900789765 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD803158238B2F4600789765 /* iPrevioSofia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD803170238B2F4900789765 /* Build configuration list for PBXNativeTarget "iPrevioSofia" */;
+			buildPhases = (
+				FD803155238B2F4600789765 /* Sources */,
+				FD803156238B2F4600789765 /* Frameworks */,
+				FD803157238B2F4600789765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPrevioSofia;
+			productName = iPrevioSofia;
+			productReference = FD803159238B2F4600789765 /* iPrevioSofia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD803151238B2F4600789765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Sofia Castillo";
+				TargetAttributes = {
+					FD803158238B2F4600789765 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = FD803154238B2F4600789765 /* Build configuration list for PBXProject "iPrevioSofia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD803150238B2F4600789765;
+			productRefGroup = FD80315A238B2F4600789765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD803158238B2F4600789765 /* iPrevioSofia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD803157238B2F4600789765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD80316C238B2F4900789765 /* LaunchScreen.storyboard in Resources */,
+				FD803169238B2F4900789765 /* Preview Assets.xcassets in Resources */,
+				FD803166238B2F4900789765 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD803155238B2F4600789765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6995C5238CEC9000B5C419 /* FavoriteListViewModel.swift in Sources */,
+				FD6995B7238CD39400B5C419 /* ImageView.swift in Sources */,
+				FD56C423238B60850088FFCF /* Movie.swift in Sources */,
+				FD6995C7238CF03500B5C419 /* Persistence.swift in Sources */,
+				FD56C41F238B3C130088FFCF /* MoviesView.swift in Sources */,
+				FD56C421238B3E7B0088FFCF /* PlaygroundView.swift in Sources */,
+				FD6995C3238CE10C00B5C419 /* FavoriteView.swift in Sources */,
+				FD80315D238B2F4600789765 /* AppDelegate.swift in Sources */,
+				FD6995B9238CD47000B5C419 /* ImageLoader.swift in Sources */,
+				FD803162238B2F4600789765 /* iPrevioSofia.xcdatamodeld in Sources */,
+				FD56C425238B7AE40088FFCF /* Services.swift in Sources */,
+				FD803164238B2F4600789765 /* ContentView.swift in Sources */,
+				FD80315F238B2F4600789765 /* SceneDelegate.swift in Sources */,
+				FD56C427238B82230088FFCF /* MovieListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD80316A238B2F4900789765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD80316B238B2F4900789765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD80316E238B2F4900789765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD80316F238B2F4900789765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD803171238B2F4900789765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iPrevioSofia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPrevioSofia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.iPrevioSofia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD803172238B2F4900789765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iPrevioSofia/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPrevioSofia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.iPrevioSofia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD803154238B2F4600789765 /* Build configuration list for PBXProject "iPrevioSofia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD80316E238B2F4900789765 /* Debug */,
+				FD80316F238B2F4900789765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD803170238B2F4900789765 /* Build configuration list for PBXNativeTarget "iPrevioSofia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD803171238B2F4900789765 /* Debug */,
+				FD803172238B2F4900789765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD803160238B2F4600789765 /* iPrevioSofia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD803161238B2F4600789765 /* iPrevioSofia.xcdatamodel */,
+			);
+			currentVersion = FD803161238B2F4600789765 /* iPrevioSofia.xcdatamodel */;
+			path = iPrevioSofia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD803151238B2F4600789765 /* Project object */;
+}
